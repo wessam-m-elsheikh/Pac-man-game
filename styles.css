@@ -1,0 +1,80 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: "Odibee Sans", cursive;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+
+  border: solid black;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid #fff;
+  /* border-box to make sure all dots with the same size along the grid */
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.pac-man {
+  background-color: yellow;
+  border-radius: 8px;
+  border: solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+/* Ghosts */
+.blinky {
+  background-color: red;
+  border: 0;
+}
+
+.pinky {
+  background-color: pink;
+  border: 0;
+}
+
+.inky {
+  background-color: cyan;
+  border: 0;
+}
+
+.clyde {
+  background-color: orange;
+  border: 0;
+}
+
+.scared-ghost {
+  background-color: rgb(172, 127, 255);
+  border: 0;
+}
